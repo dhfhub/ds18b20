@@ -1,0 +1,696 @@
+Dependencies for Project 'stm32', Target 'stm32': (DO NOT MODIFY !)
+F (..\core\startup_stm32f0xx.s)(0x4F6C6026)(--cpu Cortex-M0 -g --apcs=interwork -I "D:\Program Files (x86)\MDK\ARM\RV31\INC"-I "D:\Program Files (x86)\MDK\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "D:\Program Files (x86)\MDK\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include"--list ..\obj\startup_stm32f0xx.lst --xref -o ..\obj\startup_stm32f0xx.o --depend ..\obj\startup_stm32f0xx.d)
+F (..\lib\src\stm32f0xx_adc.c)(0x4F6C6027)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\core -I..\hardware -I..\lib\inc -I..\usr-I "D:\Program Files (x86)\MDK\ARM\RV31\INC"-I "D:\Program Files (x86)\MDK\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "D:\Program Files (x86)\MDK\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include"-DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ..\obj\stm32f0xx_adc.o --omf_browse ..\obj\stm32f0xx_adc.crf --depend ..\obj\stm32f0xx_adc.d)
+I (..\lib\inc\stm32f0xx_adc.h)(0x4F6C6026)
+I (..\usr\stm32f0xx.h)(0x5715E8AB)
+I (..\core\core_cm0.h)(0x4F6C6026)
+I (D:\Program Files (x86)\mdk\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\core\core_cmInstr.h)(0x4F6C6026)
+I (..\core\core_cmFunc.h)(0x4F6C6026)
+I (..\usr\system_stm32f0xx.h)(0x4F6C6026)
+I (..\usr\stm32f0xx_conf.h)(0x4F6C6030)
+I (..\lib\inc\stm32f0xx_cec.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_crc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_comp.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dac.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dbgmcu.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dma.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_exti.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_flash.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_gpio.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_syscfg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_i2c.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_iwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_pwr.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rcc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rtc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_spi.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_tim.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_usart.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_wwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_misc.h)(0x4F6C6027)
+F (..\lib\src\stm32f0xx_dma.c)(0x4F6C6027)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\core -I..\hardware -I..\lib\inc -I..\usr-I "D:\Program Files (x86)\MDK\ARM\RV31\INC"-I "D:\Program Files (x86)\MDK\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "D:\Program Files (x86)\MDK\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include"-DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ..\obj\stm32f0xx_dma.o --omf_browse ..\obj\stm32f0xx_dma.crf --depend ..\obj\stm32f0xx_dma.d)
+I (..\lib\inc\stm32f0xx_dma.h)(0x4F6C6026)
+I (..\usr\stm32f0xx.h)(0x5715E8AB)
+I (..\core\core_cm0.h)(0x4F6C6026)
+I (D:\Program Files (x86)\mdk\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\core\core_cmInstr.h)(0x4F6C6026)
+I (..\core\core_cmFunc.h)(0x4F6C6026)
+I (..\usr\system_stm32f0xx.h)(0x4F6C6026)
+I (..\usr\stm32f0xx_conf.h)(0x4F6C6030)
+I (..\lib\inc\stm32f0xx_adc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_cec.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_crc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_comp.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dac.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dbgmcu.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_exti.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_flash.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_gpio.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_syscfg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_i2c.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_iwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_pwr.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rcc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rtc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_spi.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_tim.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_usart.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_wwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_misc.h)(0x4F6C6027)
+F (..\lib\src\stm32f0xx_exti.c)(0x4F6C6027)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\core -I..\hardware -I..\lib\inc -I..\usr-I "D:\Program Files (x86)\MDK\ARM\RV31\INC"-I "D:\Program Files (x86)\MDK\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "D:\Program Files (x86)\MDK\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include"-DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ..\obj\stm32f0xx_exti.o --omf_browse ..\obj\stm32f0xx_exti.crf --depend ..\obj\stm32f0xx_exti.d)
+I (..\lib\inc\stm32f0xx_exti.h)(0x4F6C6026)
+I (..\usr\stm32f0xx.h)(0x5715E8AB)
+I (..\core\core_cm0.h)(0x4F6C6026)
+I (D:\Program Files (x86)\mdk\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\core\core_cmInstr.h)(0x4F6C6026)
+I (..\core\core_cmFunc.h)(0x4F6C6026)
+I (..\usr\system_stm32f0xx.h)(0x4F6C6026)
+I (..\usr\stm32f0xx_conf.h)(0x4F6C6030)
+I (..\lib\inc\stm32f0xx_adc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_cec.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_crc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_comp.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dac.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dbgmcu.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dma.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_flash.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_gpio.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_syscfg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_i2c.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_iwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_pwr.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rcc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rtc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_spi.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_tim.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_usart.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_wwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_misc.h)(0x4F6C6027)
+F (..\lib\src\stm32f0xx_gpio.c)(0x4F6C6027)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\core -I..\hardware -I..\lib\inc -I..\usr-I "D:\Program Files (x86)\MDK\ARM\RV31\INC"-I "D:\Program Files (x86)\MDK\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "D:\Program Files (x86)\MDK\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include"-DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ..\obj\stm32f0xx_gpio.o --omf_browse ..\obj\stm32f0xx_gpio.crf --depend ..\obj\stm32f0xx_gpio.d)
+I (..\lib\inc\stm32f0xx_gpio.h)(0x4F6C6026)
+I (..\usr\stm32f0xx.h)(0x5715E8AB)
+I (..\core\core_cm0.h)(0x4F6C6026)
+I (D:\Program Files (x86)\mdk\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\core\core_cmInstr.h)(0x4F6C6026)
+I (..\core\core_cmFunc.h)(0x4F6C6026)
+I (..\usr\system_stm32f0xx.h)(0x4F6C6026)
+I (..\usr\stm32f0xx_conf.h)(0x4F6C6030)
+I (..\lib\inc\stm32f0xx_adc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_cec.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_crc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_comp.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dac.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dbgmcu.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dma.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_exti.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_flash.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_syscfg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_i2c.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_iwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_pwr.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rcc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rtc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_spi.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_tim.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_usart.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_wwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_misc.h)(0x4F6C6027)
+F (..\lib\src\stm32f0xx_iwdg.c)(0x4F6C6027)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\core -I..\hardware -I..\lib\inc -I..\usr-I "D:\Program Files (x86)\MDK\ARM\RV31\INC"-I "D:\Program Files (x86)\MDK\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "D:\Program Files (x86)\MDK\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include"-DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ..\obj\stm32f0xx_iwdg.o --omf_browse ..\obj\stm32f0xx_iwdg.crf --depend ..\obj\stm32f0xx_iwdg.d)
+I (..\lib\inc\stm32f0xx_iwdg.h)(0x4F6C6027)
+I (..\usr\stm32f0xx.h)(0x5715E8AB)
+I (..\core\core_cm0.h)(0x4F6C6026)
+I (D:\Program Files (x86)\mdk\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\core\core_cmInstr.h)(0x4F6C6026)
+I (..\core\core_cmFunc.h)(0x4F6C6026)
+I (..\usr\system_stm32f0xx.h)(0x4F6C6026)
+I (..\usr\stm32f0xx_conf.h)(0x4F6C6030)
+I (..\lib\inc\stm32f0xx_adc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_cec.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_crc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_comp.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dac.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dbgmcu.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dma.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_exti.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_flash.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_gpio.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_syscfg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_i2c.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_pwr.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rcc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rtc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_spi.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_tim.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_usart.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_wwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_misc.h)(0x4F6C6027)
+F (..\lib\src\stm32f0xx_misc.c)(0x4F6C6027)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\core -I..\hardware -I..\lib\inc -I..\usr-I "D:\Program Files (x86)\MDK\ARM\RV31\INC"-I "D:\Program Files (x86)\MDK\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "D:\Program Files (x86)\MDK\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include"-DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ..\obj\stm32f0xx_misc.o --omf_browse ..\obj\stm32f0xx_misc.crf --depend ..\obj\stm32f0xx_misc.d)
+I (..\lib\inc\stm32f0xx_misc.h)(0x4F6C6027)
+I (..\usr\stm32f0xx.h)(0x5715E8AB)
+I (..\core\core_cm0.h)(0x4F6C6026)
+I (D:\Program Files (x86)\mdk\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\core\core_cmInstr.h)(0x4F6C6026)
+I (..\core\core_cmFunc.h)(0x4F6C6026)
+I (..\usr\system_stm32f0xx.h)(0x4F6C6026)
+I (..\usr\stm32f0xx_conf.h)(0x4F6C6030)
+I (..\lib\inc\stm32f0xx_adc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_cec.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_crc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_comp.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dac.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dbgmcu.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dma.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_exti.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_flash.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_gpio.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_syscfg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_i2c.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_iwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_pwr.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rcc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rtc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_spi.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_tim.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_usart.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_wwdg.h)(0x4F6C6027)
+F (..\lib\src\stm32f0xx_rcc.c)(0x4F6C6027)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\core -I..\hardware -I..\lib\inc -I..\usr-I "D:\Program Files (x86)\MDK\ARM\RV31\INC"-I "D:\Program Files (x86)\MDK\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "D:\Program Files (x86)\MDK\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include"-DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ..\obj\stm32f0xx_rcc.o --omf_browse ..\obj\stm32f0xx_rcc.crf --depend ..\obj\stm32f0xx_rcc.d)
+I (..\lib\inc\stm32f0xx_rcc.h)(0x4F6C6027)
+I (..\usr\stm32f0xx.h)(0x5715E8AB)
+I (..\core\core_cm0.h)(0x4F6C6026)
+I (D:\Program Files (x86)\mdk\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\core\core_cmInstr.h)(0x4F6C6026)
+I (..\core\core_cmFunc.h)(0x4F6C6026)
+I (..\usr\system_stm32f0xx.h)(0x4F6C6026)
+I (..\usr\stm32f0xx_conf.h)(0x4F6C6030)
+I (..\lib\inc\stm32f0xx_adc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_cec.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_crc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_comp.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dac.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dbgmcu.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dma.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_exti.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_flash.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_gpio.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_syscfg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_i2c.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_iwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_pwr.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rtc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_spi.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_tim.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_usart.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_wwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_misc.h)(0x4F6C6027)
+F (..\lib\src\stm32f0xx_tim.c)(0x4F6C6027)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\core -I..\hardware -I..\lib\inc -I..\usr-I "D:\Program Files (x86)\MDK\ARM\RV31\INC"-I "D:\Program Files (x86)\MDK\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "D:\Program Files (x86)\MDK\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include"-DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ..\obj\stm32f0xx_tim.o --omf_browse ..\obj\stm32f0xx_tim.crf --depend ..\obj\stm32f0xx_tim.d)
+I (..\lib\inc\stm32f0xx_tim.h)(0x4F6C6027)
+I (..\usr\stm32f0xx.h)(0x5715E8AB)
+I (..\core\core_cm0.h)(0x4F6C6026)
+I (D:\Program Files (x86)\mdk\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\core\core_cmInstr.h)(0x4F6C6026)
+I (..\core\core_cmFunc.h)(0x4F6C6026)
+I (..\usr\system_stm32f0xx.h)(0x4F6C6026)
+I (..\usr\stm32f0xx_conf.h)(0x4F6C6030)
+I (..\lib\inc\stm32f0xx_adc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_cec.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_crc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_comp.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dac.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dbgmcu.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dma.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_exti.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_flash.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_gpio.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_syscfg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_i2c.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_iwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_pwr.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rcc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rtc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_spi.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_usart.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_wwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_misc.h)(0x4F6C6027)
+F (..\lib\src\stm32f0xx_usart.c)(0x4F6C6027)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\core -I..\hardware -I..\lib\inc -I..\usr-I "D:\Program Files (x86)\MDK\ARM\RV31\INC"-I "D:\Program Files (x86)\MDK\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "D:\Program Files (x86)\MDK\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include"-DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ..\obj\stm32f0xx_usart.o --omf_browse ..\obj\stm32f0xx_usart.crf --depend ..\obj\stm32f0xx_usart.d)
+I (..\lib\inc\stm32f0xx_usart.h)(0x4F6C6027)
+I (..\usr\stm32f0xx.h)(0x5715E8AB)
+I (..\core\core_cm0.h)(0x4F6C6026)
+I (D:\Program Files (x86)\mdk\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\core\core_cmInstr.h)(0x4F6C6026)
+I (..\core\core_cmFunc.h)(0x4F6C6026)
+I (..\usr\system_stm32f0xx.h)(0x4F6C6026)
+I (..\usr\stm32f0xx_conf.h)(0x4F6C6030)
+I (..\lib\inc\stm32f0xx_adc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_cec.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_crc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_comp.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dac.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dbgmcu.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dma.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_exti.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_flash.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_gpio.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_syscfg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_i2c.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_iwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_pwr.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rcc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rtc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_spi.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_tim.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_wwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_misc.h)(0x4F6C6027)
+F (..\lib\src\stm32f0xx_wwdg.c)(0x4F6C6027)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\core -I..\hardware -I..\lib\inc -I..\usr-I "D:\Program Files (x86)\MDK\ARM\RV31\INC"-I "D:\Program Files (x86)\MDK\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "D:\Program Files (x86)\MDK\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include"-DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ..\obj\stm32f0xx_wwdg.o --omf_browse ..\obj\stm32f0xx_wwdg.crf --depend ..\obj\stm32f0xx_wwdg.d)
+I (..\lib\inc\stm32f0xx_wwdg.h)(0x4F6C6027)
+I (..\usr\stm32f0xx.h)(0x5715E8AB)
+I (..\core\core_cm0.h)(0x4F6C6026)
+I (D:\Program Files (x86)\mdk\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\core\core_cmInstr.h)(0x4F6C6026)
+I (..\core\core_cmFunc.h)(0x4F6C6026)
+I (..\usr\system_stm32f0xx.h)(0x4F6C6026)
+I (..\usr\stm32f0xx_conf.h)(0x4F6C6030)
+I (..\lib\inc\stm32f0xx_adc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_cec.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_crc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_comp.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dac.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dbgmcu.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dma.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_exti.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_flash.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_gpio.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_syscfg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_i2c.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_iwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_pwr.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rcc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rtc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_spi.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_tim.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_usart.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_misc.h)(0x4F6C6027)
+F (..\lib\src\stm32f0xx_flash.c)(0x4F6C6027)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\core -I..\hardware -I..\lib\inc -I..\usr-I "D:\Program Files (x86)\MDK\ARM\RV31\INC"-I "D:\Program Files (x86)\MDK\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "D:\Program Files (x86)\MDK\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include"-DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ..\obj\stm32f0xx_flash.o --omf_browse ..\obj\stm32f0xx_flash.crf --depend ..\obj\stm32f0xx_flash.d)
+I (..\lib\inc\stm32f0xx_flash.h)(0x4F6C6026)
+I (..\usr\stm32f0xx.h)(0x5715E8AB)
+I (..\core\core_cm0.h)(0x4F6C6026)
+I (D:\Program Files (x86)\mdk\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\core\core_cmInstr.h)(0x4F6C6026)
+I (..\core\core_cmFunc.h)(0x4F6C6026)
+I (..\usr\system_stm32f0xx.h)(0x4F6C6026)
+I (..\usr\stm32f0xx_conf.h)(0x4F6C6030)
+I (..\lib\inc\stm32f0xx_adc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_cec.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_crc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_comp.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dac.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dbgmcu.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dma.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_exti.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_gpio.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_syscfg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_i2c.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_iwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_pwr.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rcc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rtc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_spi.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_tim.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_usart.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_wwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_misc.h)(0x4F6C6027)
+F (..\lib\src\stm32f0xx_syscfg.c)(0x4F6C6027)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\core -I..\hardware -I..\lib\inc -I..\usr-I "D:\Program Files (x86)\MDK\ARM\RV31\INC"-I "D:\Program Files (x86)\MDK\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "D:\Program Files (x86)\MDK\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include"-DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ..\obj\stm32f0xx_syscfg.o --omf_browse ..\obj\stm32f0xx_syscfg.crf --depend ..\obj\stm32f0xx_syscfg.d)
+I (..\lib\inc\stm32f0xx_syscfg.h)(0x4F6C6027)
+I (..\usr\stm32f0xx.h)(0x5715E8AB)
+I (..\core\core_cm0.h)(0x4F6C6026)
+I (D:\Program Files (x86)\MDK\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\core\core_cmInstr.h)(0x4F6C6026)
+I (..\core\core_cmFunc.h)(0x4F6C6026)
+I (..\usr\system_stm32f0xx.h)(0x4F6C6026)
+I (..\usr\stm32f0xx_conf.h)(0x4F6C6030)
+I (..\lib\inc\stm32f0xx_adc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_cec.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_crc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_comp.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dac.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dbgmcu.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dma.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_exti.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_flash.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_gpio.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_i2c.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_iwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_pwr.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rcc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rtc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_spi.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_tim.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_usart.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_wwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_misc.h)(0x4F6C6027)
+F (.\main.c)(0x57A3F294)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\core -I..\hardware -I..\lib\inc -I..\usr-I "D:\Program Files (x86)\MDK\ARM\RV31\INC"-I "D:\Program Files (x86)\MDK\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "D:\Program Files (x86)\MDK\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include"-DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (stm32f0xx.h)(0x5715E8AB)
+I (..\core\core_cm0.h)(0x4F6C6026)
+I (D:\Program Files (x86)\MDK\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\core\core_cmInstr.h)(0x4F6C6026)
+I (..\core\core_cmFunc.h)(0x4F6C6026)
+I (system_stm32f0xx.h)(0x4F6C6026)
+I (stm32f0xx_conf.h)(0x4F6C6030)
+I (..\lib\inc\stm32f0xx_adc.h)(0x4F6C6026)
+I (..\usr\stm32f0xx.h)(0x5715E8AB)
+I (..\lib\inc\stm32f0xx_cec.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_crc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_comp.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dac.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dbgmcu.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dma.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_exti.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_flash.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_gpio.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_syscfg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_i2c.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_iwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_pwr.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rcc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rtc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_spi.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_tim.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_usart.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_wwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_misc.h)(0x4F6C6027)
+I (..\hardware\led.h)(0x573AB5F3)
+I (..\hardware\usart.h)(0x57147673)
+I (..\hardware\timer.h)(0x574E789A)
+I (..\hardware\adc.h)(0x5718737C)
+I (..\hardware\delay.h)(0x571457B8)
+I (..\hardware\ds18b20.h)(0x5722B1E4)
+I (..\hardware\wdog.h)(0x572085CF)
+I (..\hardware\exti.h)(0x573ED979)
+I (D:\Program Files (x86)\MDK\ARM\ARMCC\include\stdio.h)(0x53463A44)
+F (.\stm32f0xx_it.c)(0x4F6C6030)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\core -I..\hardware -I..\lib\inc -I..\usr-I "D:\Program Files (x86)\MDK\ARM\RV31\INC"-I "D:\Program Files (x86)\MDK\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "D:\Program Files (x86)\MDK\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include"-DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ..\obj\stm32f0xx_it.o --omf_browse ..\obj\stm32f0xx_it.crf --depend ..\obj\stm32f0xx_it.d)
+I (stm32f0xx_it.h)(0x4F6C6031)
+I (stm32f0xx.h)(0x5715E8AB)
+I (..\core\core_cm0.h)(0x4F6C6026)
+I (D:\Program Files (x86)\mdk\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\core\core_cmInstr.h)(0x4F6C6026)
+I (..\core\core_cmFunc.h)(0x4F6C6026)
+I (system_stm32f0xx.h)(0x4F6C6026)
+I (stm32f0xx_conf.h)(0x4F6C6030)
+I (..\lib\inc\stm32f0xx_adc.h)(0x4F6C6026)
+I (..\usr\stm32f0xx.h)(0x5715E8AB)
+I (..\lib\inc\stm32f0xx_cec.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_crc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_comp.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dac.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dbgmcu.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dma.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_exti.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_flash.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_gpio.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_syscfg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_i2c.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_iwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_pwr.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rcc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rtc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_spi.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_tim.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_usart.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_wwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_misc.h)(0x4F6C6027)
+F (.\system_stm32f0xx.c)(0x5716F4A4)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\core -I..\hardware -I..\lib\inc -I..\usr-I "D:\Program Files (x86)\MDK\ARM\RV31\INC"-I "D:\Program Files (x86)\MDK\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "D:\Program Files (x86)\MDK\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include"-DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ..\obj\system_stm32f0xx.o --omf_browse ..\obj\system_stm32f0xx.crf --depend ..\obj\system_stm32f0xx.d)
+I (stm32f0xx.h)(0x5715E8AB)
+I (..\core\core_cm0.h)(0x4F6C6026)
+I (D:\Program Files (x86)\mdk\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\core\core_cmInstr.h)(0x4F6C6026)
+I (..\core\core_cmFunc.h)(0x4F6C6026)
+I (system_stm32f0xx.h)(0x4F6C6026)
+I (stm32f0xx_conf.h)(0x4F6C6030)
+I (..\lib\inc\stm32f0xx_adc.h)(0x4F6C6026)
+I (..\usr\stm32f0xx.h)(0x5715E8AB)
+I (..\lib\inc\stm32f0xx_cec.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_crc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_comp.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dac.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dbgmcu.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dma.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_exti.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_flash.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_gpio.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_syscfg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_i2c.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_iwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_pwr.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rcc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rtc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_spi.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_tim.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_usart.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_wwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_misc.h)(0x4F6C6027)
+F (..\hardware\adc.c)(0x572C0C9B)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\core -I..\hardware -I..\lib\inc -I..\usr-I "D:\Program Files (x86)\MDK\ARM\RV31\INC"-I "D:\Program Files (x86)\MDK\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "D:\Program Files (x86)\MDK\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include"-DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ..\obj\adc.o --omf_browse ..\obj\adc.crf --depend ..\obj\adc.d)
+I (..\hardware\adc.h)(0x5718737C)
+I (..\usr\stm32f0xx.h)(0x5715E8AB)
+I (..\core\core_cm0.h)(0x4F6C6026)
+I (D:\Program Files (x86)\mdk\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\core\core_cmInstr.h)(0x4F6C6026)
+I (..\core\core_cmFunc.h)(0x4F6C6026)
+I (..\usr\system_stm32f0xx.h)(0x4F6C6026)
+I (..\usr\stm32f0xx_conf.h)(0x4F6C6030)
+I (..\lib\inc\stm32f0xx_adc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_cec.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_crc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_comp.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dac.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dbgmcu.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dma.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_exti.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_flash.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_gpio.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_syscfg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_i2c.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_iwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_pwr.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rcc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rtc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_spi.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_tim.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_usart.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_wwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_misc.h)(0x4F6C6027)
+I (..\hardware\usart.h)(0x57147673)
+I (D:\Program Files (x86)\mdk\ARM\ARMCC\include\stdio.h)(0x53463A44)
+F (..\hardware\delay.c)(0x52B5C282)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\core -I..\hardware -I..\lib\inc -I..\usr-I "D:\Program Files (x86)\MDK\ARM\RV31\INC"-I "D:\Program Files (x86)\MDK\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "D:\Program Files (x86)\MDK\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include"-DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\hardware\delay.h)(0x571457B8)
+I (..\usr\stm32f0xx.h)(0x5715E8AB)
+I (..\core\core_cm0.h)(0x4F6C6026)
+I (D:\Program Files (x86)\mdk\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\core\core_cmInstr.h)(0x4F6C6026)
+I (..\core\core_cmFunc.h)(0x4F6C6026)
+I (..\usr\system_stm32f0xx.h)(0x4F6C6026)
+I (..\usr\stm32f0xx_conf.h)(0x4F6C6030)
+I (..\lib\inc\stm32f0xx_adc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_cec.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_crc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_comp.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dac.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dbgmcu.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dma.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_exti.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_flash.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_gpio.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_syscfg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_i2c.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_iwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_pwr.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rcc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rtc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_spi.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_tim.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_usart.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_wwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_misc.h)(0x4F6C6027)
+F (..\hardware\led.c)(0x574BBACE)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\core -I..\hardware -I..\lib\inc -I..\usr-I "D:\Program Files (x86)\MDK\ARM\RV31\INC"-I "D:\Program Files (x86)\MDK\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "D:\Program Files (x86)\MDK\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include"-DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+I (..\hardware\led.h)(0x573AB5F3)
+I (..\usr\stm32f0xx.h)(0x5715E8AB)
+I (..\core\core_cm0.h)(0x4F6C6026)
+I (D:\Program Files (x86)\MDK\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\core\core_cmInstr.h)(0x4F6C6026)
+I (..\core\core_cmFunc.h)(0x4F6C6026)
+I (..\usr\system_stm32f0xx.h)(0x4F6C6026)
+I (..\usr\stm32f0xx_conf.h)(0x4F6C6030)
+I (..\lib\inc\stm32f0xx_adc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_cec.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_crc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_comp.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dac.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dbgmcu.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dma.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_exti.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_flash.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_gpio.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_syscfg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_i2c.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_iwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_pwr.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rcc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rtc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_spi.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_tim.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_usart.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_wwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_misc.h)(0x4F6C6027)
+F (..\hardware\timer.c)(0x574BCB92)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\core -I..\hardware -I..\lib\inc -I..\usr-I "D:\Program Files (x86)\MDK\ARM\RV31\INC"-I "D:\Program Files (x86)\MDK\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "D:\Program Files (x86)\MDK\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include"-DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ..\obj\timer.o --omf_browse ..\obj\timer.crf --depend ..\obj\timer.d)
+I (..\hardware\timer.h)(0x574E789A)
+I (..\usr\stm32f0xx.h)(0x5715E8AB)
+I (..\core\core_cm0.h)(0x4F6C6026)
+I (D:\Program Files (x86)\MDK\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\core\core_cmInstr.h)(0x4F6C6026)
+I (..\core\core_cmFunc.h)(0x4F6C6026)
+I (..\usr\system_stm32f0xx.h)(0x4F6C6026)
+I (..\usr\stm32f0xx_conf.h)(0x4F6C6030)
+I (..\lib\inc\stm32f0xx_adc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_cec.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_crc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_comp.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dac.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dbgmcu.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dma.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_exti.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_flash.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_gpio.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_syscfg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_i2c.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_iwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_pwr.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rcc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rtc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_spi.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_tim.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_usart.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_wwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_misc.h)(0x4F6C6027)
+I (..\hardware\led.h)(0x573AB5F3)
+I (..\hardware\wdog.h)(0x572085CF)
+F (..\hardware\usart.c)(0x57145A47)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\core -I..\hardware -I..\lib\inc -I..\usr-I "D:\Program Files (x86)\MDK\ARM\RV31\INC"-I "D:\Program Files (x86)\MDK\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "D:\Program Files (x86)\MDK\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include"-DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\hardware\usart.h)(0x57147673)
+I (..\usr\stm32f0xx.h)(0x5715E8AB)
+I (..\core\core_cm0.h)(0x4F6C6026)
+I (D:\Program Files (x86)\mdk\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\core\core_cmInstr.h)(0x4F6C6026)
+I (..\core\core_cmFunc.h)(0x4F6C6026)
+I (..\usr\system_stm32f0xx.h)(0x4F6C6026)
+I (..\usr\stm32f0xx_conf.h)(0x4F6C6030)
+I (..\lib\inc\stm32f0xx_adc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_cec.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_crc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_comp.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dac.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dbgmcu.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dma.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_exti.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_flash.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_gpio.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_syscfg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_i2c.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_iwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_pwr.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rcc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rtc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_spi.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_tim.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_usart.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_wwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_misc.h)(0x4F6C6027)
+I (D:\Program Files (x86)\mdk\ARM\ARMCC\include\stdio.h)(0x53463A44)
+F (..\hardware\wdog.c)(0x572160ED)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\core -I..\hardware -I..\lib\inc -I..\usr-I "D:\Program Files (x86)\MDK\ARM\RV31\INC"-I "D:\Program Files (x86)\MDK\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "D:\Program Files (x86)\MDK\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include"-DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ..\obj\wdog.o --omf_browse ..\obj\wdog.crf --depend ..\obj\wdog.d)
+I (..\hardware\wdog.h)(0x572085CF)
+I (..\usr\stm32f0xx.h)(0x5715E8AB)
+I (..\core\core_cm0.h)(0x4F6C6026)
+I (D:\Program Files (x86)\mdk\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\core\core_cmInstr.h)(0x4F6C6026)
+I (..\core\core_cmFunc.h)(0x4F6C6026)
+I (..\usr\system_stm32f0xx.h)(0x4F6C6026)
+I (..\usr\stm32f0xx_conf.h)(0x4F6C6030)
+I (..\lib\inc\stm32f0xx_adc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_cec.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_crc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_comp.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dac.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dbgmcu.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dma.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_exti.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_flash.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_gpio.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_syscfg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_i2c.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_iwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_pwr.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rcc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rtc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_spi.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_tim.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_usart.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_wwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_misc.h)(0x4F6C6027)
+F (..\hardware\ds18b20.c)(0x573AB216)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\core -I..\hardware -I..\lib\inc -I..\usr-I "D:\Program Files (x86)\MDK\ARM\RV31\INC"-I "D:\Program Files (x86)\MDK\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "D:\Program Files (x86)\MDK\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include"-DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ..\obj\ds18b20.o --omf_browse ..\obj\ds18b20.crf --depend ..\obj\ds18b20.d)
+I (..\hardware\ds18b20.h)(0x5722B1E4)
+I (..\usr\stm32f0xx.h)(0x5715E8AB)
+I (..\core\core_cm0.h)(0x4F6C6026)
+I (D:\Program Files (x86)\mdk\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\core\core_cmInstr.h)(0x4F6C6026)
+I (..\core\core_cmFunc.h)(0x4F6C6026)
+I (..\usr\system_stm32f0xx.h)(0x4F6C6026)
+I (..\usr\stm32f0xx_conf.h)(0x4F6C6030)
+I (..\lib\inc\stm32f0xx_adc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_cec.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_crc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_comp.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dac.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dbgmcu.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dma.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_exti.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_flash.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_gpio.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_syscfg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_i2c.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_iwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_pwr.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rcc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rtc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_spi.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_tim.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_usart.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_wwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_misc.h)(0x4F6C6027)
+I (..\hardware\delay.h)(0x571457B8)
+F (..\hardware\exti.c)(0x574BCC4A)(-c --cpu Cortex-M0 -g -O3 --apcs=interwork -I..\core -I..\hardware -I..\lib\inc -I..\usr-I "D:\Program Files (x86)\MDK\ARM\RV31\INC"-I "D:\Program Files (x86)\MDK\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "D:\Program Files (x86)\MDK\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include"-DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F030-o ..\obj\exti.o --omf_browse ..\obj\exti.crf --depend ..\obj\exti.d)
+I (..\hardware\exti.h)(0x573ED979)
+I (..\usr\stm32f0xx.h)(0x5715E8AB)
+I (..\core\core_cm0.h)(0x4F6C6026)
+I (D:\Program Files (x86)\MDK\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\core\core_cmInstr.h)(0x4F6C6026)
+I (..\core\core_cmFunc.h)(0x4F6C6026)
+I (..\usr\system_stm32f0xx.h)(0x4F6C6026)
+I (..\usr\stm32f0xx_conf.h)(0x4F6C6030)
+I (..\lib\inc\stm32f0xx_adc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_cec.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_crc.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_comp.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dac.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dbgmcu.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_dma.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_exti.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_flash.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_gpio.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_syscfg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_i2c.h)(0x4F6C6026)
+I (..\lib\inc\stm32f0xx_iwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_pwr.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rcc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_rtc.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_spi.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_tim.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_usart.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_wwdg.h)(0x4F6C6027)
+I (..\lib\inc\stm32f0xx_misc.h)(0x4F6C6027)

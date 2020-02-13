@@ -1,0 +1,63 @@
+
+
+#define Rref           4000         //if using PT100, change this from 4000 to 400
+//extern uint8_t Operation_Fault;
+//extern uint8_t  Data_Buffer[8]; 
+float AD_Value;                   //store the value of RTD MSB and RTD LSB register
+uint8_t RTD_H,RTD_L;
+float RTD_Resistor;            //RTD resistor value based on RTD_MSB and RTD_LSB register
+float RTD_Temperature;         // Temperature value based on direct read out data
+float Corrected_Temperature;   //Temperature after correction
+
+
+//	Operation_Fault=0;
+
+//	SPI_MAX31865_Init();
+//	SPI_Operation(0x00,Data_Buffer,8);   //no use, just used to test SPI communication
+
+//	Inital_MAX31865();
+//	SPI_Operation(0x00,Data_Buffer,8);   //To check inital ok or not?
+
+
+
+//		printf("%d",Data_Buffer[0]);
+//		#ifdef Manual_Mode
+//		Data_Buffer[0]=(MAX31865_Config|0x20);           //set 1-shot=1
+//		if(SPI_Operation(0x80,Data_Buffer,1)==SPI_FAIL)
+//		{
+//			Operation_Fault=1;
+//			return;
+//		}
+//		#endif
+
+//		while(DRDY_Status());                 //waiting if DRDY is not low
+//		if(SPI_Operation(0x01,Data_Buffer,2)==SPI_FAIL) //read back RTD_MSB and RTD_LSB
+//		{
+//			Operation_Fault=1;
+//			return;
+//		}
+//		RTD_H=Data_Buffer[0];
+//		RTD_L=Data_Buffer[1];
+//		if((RTD_L&0x01)==0x01)      //detect fault
+//		{
+//			Fault_Detect();
+//			// can add source code here to handle Fault status
+//			//Note: this software is not tested under Fault conditon.
+//		}
+//		else
+//		{
+//			AD_Value=(((RTD_H<<8)|RTD_L)&0xFFFE)>>1;
+//			RTD_Resistor=((AD_Value*4000.0000)/32768.00);
+//			RTD_Temperature=(AD_Value/32.00)-256;
+//			if(RTD_Resistor>=(Rref/4))      //temperature>0
+//			{
+//				Corrected_Temperature=((sqrt(pow(0.0039083,2)+4*0.0000005775*(1-(RTD_Resistor/Rref)*4))-0.0039083)/(2*(0-0.0000005775)));
+//			}
+//			else
+//			{
+//				if(Rref==400)
+//					Corrected_Temperature=0-241.96+2.2163*RTD_Resistor+0.0028541*pow(RTD_Resistor,2)-0.000009912*pow(RTD_Resistor,3)+0.000000017052*pow(RTD_Resistor,4);
+//				if(Rref==4000)
+//					Corrected_Temperature=0-241.96+2.2163*RTD_Resistor*0.1+0.0028541*pow((RTD_Resistor*0.1),2)-0.000009912*pow((RTD_Resistor*0.1),3)+0.000000017052*pow((RTD_Resistor*0.1),4);	
+//			}
+//		}		
